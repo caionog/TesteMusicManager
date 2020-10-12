@@ -19,7 +19,7 @@ public class MainScreen {
 		
 		User defaultUser = new User(false,"maria@gmail.com","Maria Ferreira" , "123456");
 
-		
+		System.out.println("Teste");
 		UserRepo repositorioUser = new UserRepo();
 		repositorioUser.addUser(defaultUser);
 		LoginSystem login = new LoginSystem();
